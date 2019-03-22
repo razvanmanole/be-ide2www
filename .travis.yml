@@ -1,2 +1,7 @@
+dist: xenial
 language: csharp
-solution: solution-name.sln
+solution: ide2www.sln
+mono: none
+dotnet: 2.2.104
+script:
+  - dotnet build
