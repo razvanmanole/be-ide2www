@@ -5,3 +5,8 @@ mono: none
 dotnet: 2.2.104
 script:
   - dotnet build
+deploy:
+  provider: azure_web_apps
+  verbose: true
+  on:
+    all_branches: true
