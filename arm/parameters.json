@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "servers_ide2www_name": {
+            "value": "ide2www-ps"
+        },
+		"servers_ide2www_password": {
+            "value": "F9techfest"
+        },
+        "sites_be_ide2www_name": {
+            "value": "be-ide2www-ps"
+        },
+        "sites_fe_ide2www_name": {
+            "value": "fe-ide2www-ps"
+        },
+		"hostNameBindings_be_ide2www.azurewebsites.net_name":{
+			"value":"be-ide2www-ps.azurewebsites.net"
+		},
+		"hostNameBindings_fe_ide2www.azurewebsites.net_name":{
+			"value":"fe-ide2www-ps.azurewebsites.net"
+		},
+		"databases_ide2www_name":{
+			"value":"ide2www-ps"
+		},
+		"serverfarms_ide2www_name":{
+			"value":"ide2www-ps"
+		}
+    }
+}
