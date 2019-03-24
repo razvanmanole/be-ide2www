@@ -1,2 +1,12 @@
+dist: xenial
 language: csharp
-solution: solution-name.sln
+solution: ide2www.sln
+mono: none
+dotnet: 2.2.104
+script:
+  - dotnet build
+deploy:
+  provider: azure_web_apps
+  verbose: true
+  on:
+    all_branches: true
