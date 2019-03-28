@@ -3,28 +3,28 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "servers_ide2www_name": {
-            "value": "ide2www-ps"
+            "value": "ide2www"
         },
 		"servers_ide2www_password": {
             "value": "F9techfest"
         },
         "sites_be_ide2www_name": {
-            "value": "be-ide2www-ps"
+            "value": "ide2wwwbe"
         },
         "sites_fe_ide2www_name": {
-            "value": "fe-ide2www-ps"
+            "value": "ide2www-fe"
         },
 		"hostNameBindings_be_ide2www.azurewebsites.net_name":{
-			"value":"be-ide2www-ps.azurewebsites.net"
+			"value":"ide2wwwbe.azurewebsites.net"
 		},
 		"hostNameBindings_fe_ide2www.azurewebsites.net_name":{
-			"value":"fe-ide2www-ps.azurewebsites.net"
+			"value":"ide2www-fe.azurewebsites.net"
 		},
 		"databases_ide2www_name":{
-			"value":"ide2www-ps"
+			"value":"ide2wwwdb"
 		},
 		"serverfarms_ide2www_name":{
-			"value":"ide2www-ps"
+			"value":"ide2wwwdbsvr"
 		}
     }
 }
